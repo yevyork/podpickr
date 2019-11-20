@@ -1,11 +1,19 @@
 import React from 'react';
+import { Routes } from './routes'
+import Nav from './components/Nav'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <header>
+        <Nav />
+      </header>
+      <main>
       
-    </div>
+        <Routes />
+      </main>
+    </>
   );
 }
 

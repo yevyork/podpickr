@@ -1,0 +1,60 @@
+import React, { Component } from 'react';
+import { api } from '../../services/ApiConfig';
+import PodForm from '../shared/PodForm';
+// import { PodForm } from '../shared/PodForm'
+
+
+class AddPod extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            name: '',
+            type: '',
+            intensity: '',
+            caffeine: '',
+            imageurl:'',
+            errorMsg: ''
+        }
+
+        }
+    handleAddPod = (e) => {
+        e.preventDefault()
+        const { name, type, intensity, caffeine, imageurl} = this.state
+        const data = {
+            name, 
+            type,
+            intensity,
+            caffeine,
+            imageurl
+        }
+        api
+        .post('/NespressoPodList', data)
+        .then(response =>
+            response.status === 201 ? this.props.history.push('./NespressoPodList') : null 
+            )
+            .catch(() => this.setState({ errorMsg: 'Error'}))
+        }
+
+    handleChange = e => { 
+        console.log(e.target.name)
+        console.log(e.target.value)
+        this.setState({ [e.target.name]: e.target.value})
+        console.log(this.state)
+    }
+    
+
+render() {
+    const { name, type, intensity, caffeine, imgurl} = this.state
+    return (
+        
+            <div className='addpodform'>
+                <PodForm 
+                formData={{ name, type, intensity, caffeine, imgurl }}
+                onChange={this.handleChange}
+                onSubmit={this.handleAddPod}
+                />
+            </div>
+    )   
+}
+}
+export default AddPod

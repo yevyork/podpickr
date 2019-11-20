@@ -1,0 +1,23 @@
+.PodPageBody {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+.podcontainer {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+    background-color: white;
+    color:black;
+    display: flex;
+    align-content: center;
+}
+
+.podimg {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}

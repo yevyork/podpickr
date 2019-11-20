@@ -1,0 +1,7 @@
+
+.allpods {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    flex-shrink: initial;
+}
