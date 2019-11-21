@@ -5,3 +5,10 @@
     padding: 50px;
     flex-shrink: initial;
 }
+.select {
+    margin: 30px;
+    text-align: center;
+    color: #4C2E05;
+    font-weight: 500;
+    text-decoration: underline;
+}

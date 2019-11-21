@@ -14,9 +14,9 @@ class PodContainer extends React.Component {
     console.log(pod);
     this.setState({
       modal: true,
+      
     })
   };
-
 
   closeModal = () => {
     this.setState({
@@ -26,8 +26,8 @@ class PodContainer extends React.Component {
 }
 
   render() {
-    const modal = this.state.modal ? <PodInfo className="podmodal" closeModal={this.closeModal} data={this.props.obj} /> : null
-    
+   const modal = this.state.modal ? <PodInfo className="podmodal" closeModal={this.closeModal} data={this.props.obj} /> : null
+
     return (
       <div className="PodPageBody">
         <div

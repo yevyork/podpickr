@@ -15,14 +15,14 @@ const Home = props => {
         <br></br>
         <p className="midtext">Let's find out which flavor is right for you.</p>
       </div>
-
-      <div className="widget">
-        <Widget />
+      <div className="center-container">
+        <div className="widget">
+          <Widget />
+        </div>
+        <div className="heroimg">
+          <img className="heroimg" src={heroimg} alt="heroimg" />
+        </div>
       </div>
-      <div className="heroimg">
-        <img className="heroimg" src={heroimg} alt="heroimg" />
-      </div>
-     
     </div>
   );
 };

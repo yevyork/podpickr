@@ -25,12 +25,18 @@ class Widget extends Component {
 
   render() {
     const renderNews = this.state.nespressoNews.map((article, i) => (
-      <div className="widget-container" key={i}>
-        {article.title}
+      
+      <div key={i}>
+        <a className='news-title' href={article.url}>{article.title}</a>
+        <br></br><br></br>
       </div>
     ));
-    return <div>{renderNews}</div>;
-  }
+    return (
+    <div className="widget-container">
+      <h1 className='widget-heading'>Nespresso News</h1>
+      <div className='news'>{renderNews}</div>
+    </div>
+    )}
 }
 
 export default Widget;

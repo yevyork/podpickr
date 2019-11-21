@@ -1,5 +1,25 @@
+.widget-heading {
+    text-align: center;
+    color: rgba(94, 41, 26, 0.644);
+    text-decoration: underline;
+}
+
 .widget-container {
-    color: red;
-    font-size: 8px;
-    
+    font-size: 15px;
+    contain: content;
+    overflow-y: scroll;
+
+
+}
+.news {
+    text-align: center;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.news-title {
+    color: black;
+    text-decoration: underline #3C6E71;
+    text-decoration-style: solid;
 }

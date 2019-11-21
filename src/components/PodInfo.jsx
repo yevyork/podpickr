@@ -8,10 +8,11 @@ const PodInfo = (props) => {
   <div className="podmodal">
       <button className='close' onClick={props.closeModal}>X</button>
     <ul>
-      <li>{props.data.name}</li>
-      <li>{props.data.type}</li>
-      <li>{`Intensity: ${props.data.intensity}`}</li>
-      <li>{`Caffeine: ${props.data.caffeine}`}</li> 
+      <li className='podname'>{props.data.name}</li>
+      <br></br>
+      <li className='podtype'>{`Type: ${props.data.type}`}</li>
+      <li className='podintensity'>{`Intensity: ${props.data.intensity}`}</li>
+      <li className='podcaffeine'>{`Caffeine: Max of ${props.data.caffeine}`}</li> 
     </ul>
   </div>
     )};

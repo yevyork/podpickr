@@ -42,7 +42,8 @@ const PodForm = (props) => {
             placeholder='Link Pod Image'
             onChange={(e) => onChange(e)}
             />
-            <button className ='submit'>Add to collection</button>
+            <br></br><br></br><br></br>
+            <button className ='submit'>Add Pod</button>
         </form>
     )
 }

@@ -2,7 +2,10 @@
     display: flex;
     flex-direction: row;
     padding: 10px;
+}
 
+.PodPageBody2 {
+    filter: blur(3px) opacity(90%) brightness(20%);  
 }
 
 .podcontainer {
@@ -14,10 +17,18 @@
     color:black;
     display: flex;
     align-content: center;
+    padding: 2px;
+    border: 1px solid black
 }
 
 .podimg {
     width: 80px;
     height: 80px;
     margin: 10px;
+}
+
+.podcontainer:hover {
+    outline: 2px solid rgba(255, 255, 255, 0.521);
+    outline-offset: 3px;
+    cursor: pointer;
 }

@@ -1,9 +1,11 @@
 .podmodal {
+    
     position: absolute;
-    background-color: white;
-    width: 100px;
-    height: 100px;
+    background-color: rgba(255, 255, 255, 0.842);
+    width: 200px;
+    height: 200px;
     color: black;
+    z-index: 1000;
 }
 
 .close {
@@ -31,4 +33,26 @@
     top: -9px;
     left: -2.5px;
     color: #ffffff;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .podname {
+    text-decoration: underline solid;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .podtype {
+    color: #4C2E05;
+  }
+
+  .podintensity {
+    color: rgba(192, 62, 153, 0.589)
+  }
+
+  .podcaffeine {
+    color: red;
   }

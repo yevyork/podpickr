@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { api } from '../../services/ApiConfig';
 import PodForm from '../shared/PodForm';
-// import { PodForm } from '../shared/PodForm'
+import '../../styles/AddPod.css'
 
 
 class AddPod extends Component {
@@ -19,13 +19,13 @@ class AddPod extends Component {
         }
     handleAddPod = (e) => {
         e.preventDefault()
-        const { name, type, intensity, caffeine, imageurl} = this.state
+        const { name, type, intensity, caffeine, imgurl} = this.state
         const data = {
             name, 
             type,
             intensity,
             caffeine,
-            imageurl
+            imgurl
         }
         api
         .post('/NespressoPodList', data)
