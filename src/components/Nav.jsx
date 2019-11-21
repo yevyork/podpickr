@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/Nav.css";
 import podicon from "../img/coffee.svg";
+import homeicon from "../img/home2.svg";
+import plusicon from "../img/plus.png"
 
 const Nav = () => {
   return (
@@ -17,19 +19,19 @@ const Nav = () => {
         <div className="homenav">
           <NavLink className="nav" exact to="/" activeClassName="active">
             HOME
-            <img className="pod-icon" src={podicon} alt="podicon"></img>
+            <img className="icon" src={homeicon} alt="podicon" />
           </NavLink>
         </div>
         <div className="podnav">
           <NavLink className="nav" exact to="/pods" activeClassName="active">
             PODS
-            <img className="pod-icon" src={podicon} alt="podicon"></img>
+            <img className="icon" src={podicon} alt="podicon" />
           </NavLink>
         </div>
         <div className="addpodnav">
           <NavLink className="nav" exact to="/addpod" activeClassName="active">
             ADD POD
-            <img className="pod-icon" src={podicon} alt="podicon"></img>
+            <img className="icon" src={plusicon} alt="podicon" />
           </NavLink>
           </div>
         </div>

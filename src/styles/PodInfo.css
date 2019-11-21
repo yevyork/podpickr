@@ -1,14 +1,29 @@
 .podmodal {
     
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.842);
-    width: 200px;
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0.959);
+    width: max-content;
+    margin: 10px;
     height: 200px;
     color: black;
+    border: 3px double black;
     z-index: 1000;
+    animation: fadeInModal 0.5s;
 }
 
+@keyframes fadeInModal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 .close {
+    cursor: pointer;
     position: absolute;
     top: 9px;
     left: 9px;
@@ -21,22 +36,25 @@
     text-align: center;
     border-radius: 20px;
   }
-  
+
+  @keyframes fadeOutModal {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
   button:focus {
     outline: 0;
   }
   
-  .close > a {
-    position: relative;
-    text-decoration: none;
-    text-align: center;
-    top: -9px;
-    left: -2.5px;
-    color: #ffffff;
-  }
+
 
   li {
     list-style: none;
+    margin: 10px;
   }
 
   .podname {

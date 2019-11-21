@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes } from './routes'
 import Nav from './components/Nav'
+import Footer from './components/shared/Footer'
 import './App.css';
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
       <main>
       
         <Routes />
+        
       </main>
+      <Footer></Footer>
     </>
   );
 }

@@ -34,10 +34,15 @@ class Pods extends Component {
       );
     });
     return (
-      <div className="podscontainer">
-        <p className='select'>Select A Pod To View It's Caffeine Levels. <br></br><br></br><br></br>If You Have A Pod To Add, Please Select Add Pod From The Menu Above</p>
-        <div className="allpods">{renderPods}</div>
-      </div>
+        <div className="podscontainer">
+          <p className="select">
+            Select A Pod To View It's Caffeine Levels. <br></br>
+            <br></br>
+            <br></br>If You Have A Pod To Add, Please Select 'Add Pod' From The
+            Menu Above
+          </p>
+          <div className="allpods">{renderPods}</div>
+        </div>
     );
   }
 }

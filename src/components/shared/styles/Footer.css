@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    background-color: #4C2E05;
+    margin-top: 40px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-top: auto;
+    justify-self: flex-end;
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+}

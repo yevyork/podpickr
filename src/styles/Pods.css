@@ -1,6 +1,11 @@
-
+.podscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .allpods {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 50px;
     flex-shrink: initial;
@@ -10,5 +15,5 @@
     text-align: center;
     color: #4C2E05;
     font-weight: 500;
-    text-decoration: underline;
 }
+

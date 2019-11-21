@@ -5,23 +5,22 @@
     background-color: #4C2E05;
     height: 125px;
     width: 100%;
+    margin-bottom: 30px;
 }
+
 .active {
     font-weight: 850;
     text-decoration: underline;
     color: white;
 }
 
-.pod-icon {
-    max-width: 40px;
-    max-height: 40px;
-}
 
 .nav-container {
     display: flex;
     justify-content: space-evenly;
     margin-left:30px;
-    flex-shrink: 1;
+    width: 90%;
+    flex-grow: 1;
 }
 
 .nav {
@@ -33,17 +32,23 @@
     letter-spacing: 2px;
     box-shadow:2px 2px rgba(39, 26, 9, 0.301);
 }
+
+.icon {
+    max-width: 40px;
+    max-height: 40px;
+}
+
 .navlinks {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 10px;
-
 }
 
 .nav:hover {
     color: white;
     box-shadow: 2px 2px rgba(29, 28, 28, 0.37);
 }
+
 .titles-container {
     display: flex;
     flex-direction: column;
@@ -80,30 +85,33 @@
         margin: 0 auto;
         width: 100%;
     }
+
     .titles-container {
         display: flex;
         margin: 0 0;
         text-align: center;
         justify-content: space-between;
     }
+
     .nav-container {
         margin: 0 auto;
         flex-direction: column;
     }
+
     .navlinks {
-        justify-content: space-around;
+        display: flex;
+        padding: 0 30px;
         box-shadow: none;
-        
     }
+
     .nav {
-        justify-content: center;
         justify-items: center;
         margin: 20px auto;
         flex-direction: row;
         box-shadow: none;
     }
+
     .nav:hover {
         box-shadow: none;
-
     }
 }

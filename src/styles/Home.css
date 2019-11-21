@@ -22,9 +22,9 @@
 }
 .widget {
     display: flex;
-    flex-shrink: 0;
-    max-width: 400px;
-    height: 300px;
+    flex-shrink: 1;
+    max-width: 500px;
+    height: 400px;
     margin: 50px 100px;
     border: 5px double #3C6E71;
     background-color: rgba(248, 248, 255, 0.575);
@@ -32,7 +32,6 @@
 }
 .heroimg {
     display: flex;
-    
     flex-shrink: 1;
     max-width: 500px;
     max-height: 400px;

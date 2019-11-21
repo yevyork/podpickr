@@ -3,7 +3,7 @@ import Widget from "../Widget";
 import "../../styles/Home.css";
 import heroimg from "../../img/hero.jpg";
 
-const Home = props => {
+const Home = () => {
   return (
     <div className="home">
       <div className="textcontainer">
