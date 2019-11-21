@@ -1,5 +1,5 @@
 .addpodform {
-    display: grid;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;

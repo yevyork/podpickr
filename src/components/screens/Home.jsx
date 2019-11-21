@@ -9,9 +9,9 @@ const Home = () => {
       <div className="textcontainer">
         <p className="toptext">
           Some of us like to taste the different flavor notes when we drink
-          coffee.
+          coffee, some of us just drink it for the boost. You can have both with Nespresso.
         </p>
-        <p className="toptext">Some of us just drink it for the boost.</p>
+        <p className="toptext">The one thing Nespresso doesn't give us is the caffeine content per pod. That's why Podpickr exists.</p>
         <br></br>
         <p className="midtext">Let's find out which flavor is right for you.</p>
       </div>
@@ -20,7 +20,8 @@ const Home = () => {
           <Widget />
         </div>
         <div className="heroimg">
-          <img className="heroimg" src={heroimg} alt="heroimg" />
+          <a href='http://www.nespresso.com/' target='_blank' rel='noopener noreferrer'><img className="heroimg" src={heroimg} alt="heroimg" /></a>
+          {/* <img className="heroimg" src={heroimg} alt="heroimg" /> */}
         </div>
       </div>
     </div>

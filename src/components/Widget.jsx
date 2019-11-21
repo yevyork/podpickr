@@ -27,7 +27,7 @@ class Widget extends Component {
     const renderNews = this.state.nespressoNews.map((article, i) => (
       
       <div key={i}>
-        <a className='news-title' href={article.url}>{article.title}</a>
+        <a className='news-title' href={article.url} target="_blank" rel='noopener noreferrer'>{article.title}</a>
         <br></br><br></br>
       </div>
     ));
