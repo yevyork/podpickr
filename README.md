@@ -22,3 +22,5 @@
 
 ![GIF](https://github.com/yevyork/podpickr/blob/master/podpickr.gif)
 
+### Thanks for reading. Enjoy PodPickr!
+

@@ -41,7 +41,7 @@ const PodForm = props => {
           name="imgurl"
           value={imgurl}
           required={true}
-          placeholder="Link Pod Image"
+          placeholder="Pod Image URL"
           onChange={e => onChange(e)}
         />
         <br></br>

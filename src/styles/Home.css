@@ -6,6 +6,7 @@
 .textcontainer {
     display: flex;
     flex-direction: column;
+    flex: 1;
     text-align: center;
     margin-top: 50px;
 }
@@ -15,6 +16,7 @@
 
 }
 .toptext, .midtext {
+    width: auto;
     margin: 20px;
     font-size: 14px;
     color: white;

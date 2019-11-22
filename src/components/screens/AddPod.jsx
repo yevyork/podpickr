@@ -30,7 +30,7 @@ class AddPod extends Component {
         api
         .post('/NespressoPodList', data)
         .then(response =>
-            response.status === 201 ? this.props.history.push('./NespressoPodList') : null 
+            response.status === 201 ? this.props.history.push('/Pods') : null 
             )
             .catch(() => this.setState({ errorMsg: 'Error'}))
         }

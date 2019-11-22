@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-left:30px;
-    width: 90%;
+    width: auto;
     flex-grow: 1;
 }
 
@@ -100,13 +100,13 @@
 
     .navlinks {
         display: flex;
-        padding: 0 30px;
+        /* padding: 0 30px; */
         box-shadow: none;
     }
 
     .nav {
         justify-items: center;
-        margin: 20px auto;
+        /* margin: 20px auto; */
         flex-direction: row;
         box-shadow: none;
     }
