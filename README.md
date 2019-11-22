@@ -11,5 +11,14 @@
 #### Struggles:
 1. Everything surrounding the modal except the styling
 2. UD of CRUD
+3. My perfectionist side
 
+
+#### This project includes:
+* React/React Router
+* CRUD (POST & GET)
+* Mobile-responsive
+* MockAPI & 3rd-party API data
+
+![GIF](https://github.com/yevyork/podpickr/blob/master/podpickr.gif)
 
