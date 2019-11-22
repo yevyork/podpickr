@@ -9,11 +9,20 @@
     text-align: center;
     margin-top: 50px;
 }
+.toptext, .midtext, .getlink {
+    font-family: 'futura';
+    letter-spacing: 1px;
 
+}
 .toptext, .midtext {
-    font-size: 12px;
+    margin: 20px;
+    font-size: 14px;
     color: white;
     text-shadow: 0 2px 4px rgba(70, 68, 68, 0.89);
+}
+.midtext {
+    font-weight: 800;
+    color: rgba(76, 46, 5, 0.747);
 }
 .center-container {
     display: flex;
@@ -37,6 +46,14 @@
     max-height: 400px;
 }
 
+.getlink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 10px 0 -10px;
+    color: black
+}
+
 @media screen and (max-width: 500px){
     .toptext {
         display: flex;
@@ -53,8 +70,11 @@
         flex-direction: column;
     }
 
-    .hero-img {
-        max-width: 100px;
-        max-height: 100px;
+    .heroimg {
+        display: flex;
+        justify-self: center;
+        max-width: 200px;
+        max-height: 200px;
+        margin: 0 auto;
     }
 }
