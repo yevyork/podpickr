@@ -24,5 +24,5 @@
 ![GIF](https://github.com/yevyork/podpickr/blob/master/podpickr.gif)
 ###### (Actual site looks a little better than GIF :))
 
-### Thanks for reading. Enjoy [PodPickr!](http://http://podpickr.surge.sh/)
+### Thanks for reading. Enjoy [PodPickr!](http://podpickr.surge.sh/)
 
