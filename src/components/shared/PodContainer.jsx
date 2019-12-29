@@ -11,7 +11,6 @@ class PodContainer extends React.Component {
   }
 
   handlePodInfo = pod => {
-    console.log(pod);
     this.setState({
       modal: true
     });
@@ -46,6 +45,4 @@ class PodContainer extends React.Component {
 }
 export default PodContainer;
 
-{
-  /* <p className={stock.change < 0 ? "changered" : "changegreen"}> */
-}
+

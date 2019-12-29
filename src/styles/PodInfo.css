@@ -1,11 +1,11 @@
 .podmodal {
-    
+    overflow-x: scroll;
     position: absolute;
-    right: 10%;
     background-color: rgba(255, 255, 255, 0.959);
     width: max-content;
-    margin: 10px;
-    height: 200px;
+    margin: auto;
+    margin-right: 10px;
+    height: 18%;
     color: black;
     border: 3px double black;
     z-index: 1000;
@@ -73,4 +73,15 @@
 
   .podcaffeine {
     color: red;
+  }
+
+  @media screen and (max-width: 500px) {
+    .podmodal {
+      height: 23%;
+      right: 4%;
+      color: black;
+      border: 3px double black;
+      z-index: 1000;
+      animation: fadeInModal 0.5s;
+  }
   }

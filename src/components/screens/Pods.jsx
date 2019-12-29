@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { api } from "../../services/ApiConfig";
 import PodContainer from "../shared/PodContainer";
-import PodInfo from "../PodInfo";
 import "../../styles/Pods.css";
 
 class Pods extends Component {

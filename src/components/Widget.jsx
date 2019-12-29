@@ -19,7 +19,6 @@ class Widget extends Component {
       `https://newsapi.org/v2/everything?q=nespresso&apiKey=${token}`
     );
     this.setState({ nespressoNews: news.data.articles });
-    console.log(this.state.nespressoNews);
   };
 
 
